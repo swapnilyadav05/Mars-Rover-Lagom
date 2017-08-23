@@ -45,4 +45,5 @@ $ sbt runAll
 
 ### Verify that the services 
 The following request returns the json {"x":5,"y":1,"direction":"E"}
+
 curl -H "Content-Type: application/json" -X POST -d '{"x":3,"y":3, "direction":"E"}'http://localhost:9000/api/position/MMRMMRMRRM
